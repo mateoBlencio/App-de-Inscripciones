@@ -1,0 +1,59 @@
+#SearchBarPage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 20px;
+  background-color: #161616;
+  padding: 0px;
+}
+
+#SearchBarPage .search-input {
+  flex: 1;
+  outline: none;
+  padding: 8px;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #161616;
+  color: white;
+  border: 0px;
+}
+
+#SearchBarPage .search-button {
+  border: none;
+  outline: none;
+  background-color: #157ae1;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-left: #161616 1px solid;
+  border-right: #161616 1px solid;
+}
+
+#SearchBarPage .cancel-button {
+  border: none;
+  outline: none;
+  background-color: #157ae1;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#SearchBarPage .agregate-button {
+  border: none;
+  outline: none;
+  background-color: #157ae1;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-right: #161616 1px solid;
+}
+
+#SearchBarPage .search-button:hover,
+#SearchBarPage .cancel-button:hover {
+  background-color: #408fdd;
+}

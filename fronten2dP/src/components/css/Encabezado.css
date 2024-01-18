@@ -1,0 +1,20 @@
+#PortalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+#PortalHeader .PortalTitle h1 {
+  margin: 0;
+}
+
+#PortalHeader .LogOut {
+  background-color: #157ae1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+}

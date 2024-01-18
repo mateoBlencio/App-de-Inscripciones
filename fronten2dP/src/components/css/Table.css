@@ -1,0 +1,44 @@
+#TablePage #table {
+  margin-top: 3%;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#TablePage td,
+#TablePage th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#TablePage tr:nth-child(even) {
+  background-color: #5e6277fd;
+}
+
+#TablePage tr:hover {
+  background-color: #2e303afd;
+}
+
+#TablePage th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #1504aa;
+  color: white;
+}
+
+#table button {
+  border: none;
+  outline: none;
+  background-color: #157ae1;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: #161616 0.2px solid;
+  border-radius: 20px;
+}
+
+#table button:disabled{
+  background-color: gray;
+}

@@ -1,0 +1,79 @@
+#Form h1{
+    text-align: center;
+}
+
+#Form input[type="text"],
+#Form input[type="number"],
+#Form input[type="password"],
+#Form input[type="date"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #161616;
+}
+
+#Form input[type="text"]:focus,
+#Form input[type="number"]:focus,
+#Form input[type="password"]:focus,
+#Form input[type="date"]:focus,
+#Form select:focus {
+  border-color: #157ae1; /* Cambia el color del borde cuando el input está enfocado */
+  border-width: 3px;
+  outline: none; /* Elimina el contorno de enfoque predeterminado */
+  color: #161616;
+}
+
+#Form .buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#Form .description-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+
+#Form .buttomSubmit,
+#Form a {
+  width: calc(44%);
+  background-color: #157ae1;
+  color: black;
+  padding: 14px 20px;
+  border: solid black 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+#Form .buttomSubmit:hover {
+  background-color: #408fdd;
+}
+
+#Form div {
+  border-radius: 5px;
+  background: #161616;
+  padding: 20px;
+}
+
+#Form .letters{
+  text-decoration: none;
+  color: #ccc;
+}
+
+#Form option{
+  color: #161616;
+}
+
+#Form #cancel{
+  color: black;
+}
